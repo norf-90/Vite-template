@@ -66,22 +66,6 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "warn",
     "semi": "error",
-    "packageDir": {
-      "rules": {
-        "import/no-extraneous-dependencies": [
-          "error",
-          { "devDependencies": true }
-        ]
-      }
-    }
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
   }
 }
-
-// "import/no-extraneous-dependencies": [
-//           "error",
-//           {
-//             "devDependencies": true,
-//             "optionalDependencies": false,
-//             "peerDependencies": false
-//           }
-//         ],
