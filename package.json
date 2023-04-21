@@ -15,7 +15,10 @@
   "scripts": {
     "start": "vite",
     "build": "vite build --emptyOutDir",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint:eslint": "eslint . --ext .js,.jsx",
+    "fix:eslint": "eslint --fix  . --ext .js,.jsx",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
