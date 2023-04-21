@@ -66,7 +66,13 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "warn",
     "semi": "error",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+        // "packageDir": "./"
+      }
+    ],
     "import/prefer-default-export": "off"
   }
 }
