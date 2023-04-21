@@ -14,14 +14,11 @@
     "template"
   ],
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build --emptyOutDir",
     "serve": "vite preview",
     "lint:eslint": "eslint . --ext .js,.jsx",
-    "fix:eslint": "eslint --fix  . --ext .js,.jsx",
-    "lint:stylelint": "stylelint **/*.{css,scss,jsx}",
-    "fix:stylelint": "stylelint --fix  ./src/**/*.{css, scss,jsx}",
-    "test": "jest"
+    "fix:eslint": "eslint --fix  . --ext .js,.jsx"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -37,12 +34,6 @@
     "@babel/core": "^7.21.4",
     "@emotion/babel-plugin": "^11.10.6",
     "@emotion/babel-preset-css-prop": "^11.10.0",
-    "@namics/stylelint-bem": "^8.1.0",
-    "@stylelint/postcss-css-in-js": "^0.38.0",
-    "@testing-library/dom": "^9.2.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
     "babel-loader": "^9.1.2",
@@ -62,11 +53,6 @@
     "prettier-plugin-style-order": "^0.2.2",
     "prettier-plugin-tailwindcss": "^0.2.7",
     "react-test-renderer": "^18.2.0",
-    "stylelint": "^15.4.0",
-    "stylelint-config-idiomatic-order": "^9.0.0",
-    "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-standard-scss": "^8.0.0",
-    "stylelint-scss": "^4.6.0",
     "typescript": "^5.0.4",
     "vite": "^4.2.1",
     "webpack": "^5.78.0"
