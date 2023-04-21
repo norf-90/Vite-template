@@ -1,24 +1,21 @@
 {
-  "name": "starter-vite-react",
+  "name": "vite-react-template",
   "private": true,
   "version": "1.0.0",
-  "description": "Opinionated Vite starter template with ESLint, Prettier, Stylelint and more.",
+  "description": "my own custom template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabgrel10/vite-react-starter"
+    "url": "https://github.com/norf-90/Vite-template"
   },
   "keywords": [
     "vite",
     "react",
-    "starter",
     "template"
   ],
   "scripts": {
     "start": "vite",
     "build": "vite build --emptyOutDir",
-    "serve": "vite preview",
-    "lint:eslint": "eslint . --ext .js,.jsx",
-    "fix:eslint": "eslint --fix  . --ext .js,.jsx"
+    "serve": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
