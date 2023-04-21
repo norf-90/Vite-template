@@ -65,14 +65,16 @@
     "react/function-component-definition": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "warn",
-    "semi": "error"
-  },
-  "import/no-extraneous-dependencies": [
-    "error",
-    {
-      "devDependencies": true,
-      "optionalDependencies": false,
-      "peerDependencies": false
-    }
-  ]
+    "semi": "error",
+    "packageDir": "./"
+  }
 }
+
+// "import/no-extraneous-dependencies": [
+//           "error",
+//           {
+//             "devDependencies": true,
+//             "optionalDependencies": false,
+//             "peerDependencies": false
+//           }
+//         ],

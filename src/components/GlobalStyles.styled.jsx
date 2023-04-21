@@ -1,5 +1,5 @@
-import 'modern-normalize';
 import { injectGlobal } from '@emotion/css';
+import 'modern-normalize';
 
 export const GlobalStyles = () => injectGlobal`
    body {
